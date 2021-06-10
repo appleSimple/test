@@ -1,0 +1,14 @@
+@import '../styles.scss';
+
+.platinum_set {
+    @include set(80%, 100%, 100%);
+}
+.gold_set {
+    @include set(70%, 50%);
+}
+.silver_set {
+    @include set(80%, 33.33%);
+}
+// .bronze_set {
+//     @include set(60%, 25%, 60%);
+// }
